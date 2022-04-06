@@ -1,0 +1,72 @@
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\bin\Debug\PIA-BD-E4.exe.config
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\bin\Debug\PIA-BD-E4.exe
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\bin\Debug\PIA-BD-E4.pdb
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\bin\Debug\Guna.UI2.dll
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\bin\Debug\MaterialSkin.dll
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csprojAssemblyReference.cache
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardInmueble.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarInmueble.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.InmueblesLista.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardEvento.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.EventosLista.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Properties.Resources.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.GenerateResource.cache
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.CoreCompileInputs.cache
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.CopyComplete
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.exe
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.pdb
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.InmuebleDetalle.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.ArtistasLista.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardArtista.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CargarInmuebl.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarArtista.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.ArtistaDetalle.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarEvento.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarListaArtistas.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.EventoDetalle.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardLocalidad.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.Boletos.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.InfoBoletos.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.Info.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.Login.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.Registrarse.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.Comprado.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.MiCuenta.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.BoletoDigital.resources
+D:\Proyectos VS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.BoletosDigitales.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\bin\Debug\PIA-BD-E4.exe.config
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\bin\Debug\PIA-BD-E4.exe
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\bin\Debug\PIA-BD-E4.pdb
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\bin\Debug\Guna.UI2.dll
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\bin\Debug\MaterialSkin.dll
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.AssemblyReference.cache
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.BoletoDigital.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.Boletos.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardArtista.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardInmueble.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardLocalidad.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CargarInmuebl.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.Comprado.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.Info.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.InfoBoletos.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarArtista.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarEvento.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarInmueble.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.AgregarListaArtistas.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.ArtistaDetalle.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.BoletosDigitales.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.EventoDetalle.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.InmuebleDetalle.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.ArtistasLista.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.InmueblesLista.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Componentes.CardEvento.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.EventosLista.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.Login.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.MiCuenta.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.GUI.Registrarse.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA_BD_E4.Properties.Resources.resources
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.GenerateResource.cache
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.CoreCompileInputs.cache
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.csproj.CopyComplete
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.exe
+D:\ProyectosVS\PIA-BD-E4\PIA-BD-E4\obj\Debug\PIA-BD-E4.pdb

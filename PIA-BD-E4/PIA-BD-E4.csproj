@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63912C05-BD66-47B4-904D-AFB47B43EBF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PIA_BD_E4</RootNamespace>
+    <AssemblyName>PIA-BD-E4</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.1.3\lib\net461\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Componentes\BoletoDigital.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\BoletoDigital.Designer.cs">
+      <DependentUpon>BoletoDigital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\Boletos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\Boletos.Designer.cs">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CardArtista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CardArtista.Designer.cs">
+      <DependentUpon>CardArtista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CardInmueble.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CardInmueble.Designer.cs">
+      <DependentUpon>CardInmueble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CardLocalidad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CardLocalidad.Designer.cs">
+      <DependentUpon>CardLocalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CargarInmuebles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CargarInmuebles.Designer.cs">
+      <DependentUpon>CargarInmuebles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\Comprado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\Comprado.Designer.cs">
+      <DependentUpon>Comprado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\InfoBoletos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\InfoBoletos.Designer.cs">
+      <DependentUpon>InfoBoletos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AgregarArtista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AgregarArtista.Designer.cs">
+      <DependentUpon>AgregarArtista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AgregarEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AgregarEvento.Designer.cs">
+      <DependentUpon>AgregarEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AgregarInmueble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AgregarInmueble.Designer.cs">
+      <DependentUpon>AgregarInmueble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AgregarListaArtistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AgregarListaArtistas.Designer.cs">
+      <DependentUpon>AgregarListaArtistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ArtistaDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ArtistaDetalle.Designer.cs">
+      <DependentUpon>ArtistaDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BoletosDigitales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BoletosDigitales.Designer.cs">
+      <DependentUpon>BoletosDigitales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EventoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EventoDetalle.Designer.cs">
+      <DependentUpon>EventoDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\InmuebleDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\InmuebleDetalle.Designer.cs">
+      <DependentUpon>InmuebleDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ArtistasLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ArtistasLista.Designer.cs">
+      <DependentUpon>ArtistasLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\InmueblesLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\InmueblesLista.Designer.cs">
+      <DependentUpon>InmueblesLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CardEvento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CardEvento.Designer.cs">
+      <DependentUpon>CardEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EventosLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EventosLista.Designer.cs">
+      <DependentUpon>EventosLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MiCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MiCuenta.Designer.cs">
+      <DependentUpon>MiCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Registrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Registrarse.Designer.cs">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Componentes\BoletoDigital.resx">
+      <DependentUpon>BoletoDigital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Boletos.resx">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CardArtista.resx">
+      <DependentUpon>CardArtista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CardInmueble.resx">
+      <DependentUpon>CardInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CardLocalidad.resx">
+      <DependentUpon>CardLocalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CargarInmuebles.resx">
+      <DependentUpon>CargarInmuebles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Comprado.resx">
+      <DependentUpon>Comprado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\InfoBoletos.resx">
+      <DependentUpon>InfoBoletos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AgregarArtista.resx">
+      <DependentUpon>AgregarArtista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AgregarEvento.resx">
+      <DependentUpon>AgregarEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AgregarInmueble.resx">
+      <DependentUpon>AgregarInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AgregarListaArtistas.resx">
+      <DependentUpon>AgregarListaArtistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ArtistaDetalle.resx">
+      <DependentUpon>ArtistaDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\BoletosDigitales.resx">
+      <DependentUpon>BoletosDigitales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EventoDetalle.resx">
+      <DependentUpon>EventoDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\InmuebleDetalle.resx">
+      <DependentUpon>InmuebleDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ArtistasLista.resx">
+      <DependentUpon>ArtistasLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\InmueblesLista.resx">
+      <DependentUpon>InmueblesLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CardEvento.resx">
+      <DependentUpon>CardEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EventosLista.resx">
+      <DependentUpon>EventosLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MiCuenta.resx">
+      <DependentUpon>MiCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Registrarse.resx">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icono_buscar.png" />
+    <Content Include="Resources\icono_buscarAzul.png" />
+    <Content Include="Resources\icono_siguienteAzul90.png" />
+    <Content Include="Resources\icono_siguienteBlanco90.png" />
+    <Content Include="Resources\inmueble_generico.jpg" />
+    <None Include="Resources\inmueble_generico1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Auxiliar\" />
+    <Folder Include="Clases\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
